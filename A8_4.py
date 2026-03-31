@@ -1,0 +1,5 @@
+user = str(input("Enter a username: "))
+age = int(input("Enter your age: "))
+passw = str(input("Enter your password: "))
+tuple1 = (user, age, passw)
+print("User info:",tuple1)

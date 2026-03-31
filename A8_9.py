@@ -1,0 +1,6 @@
+L = input("Enter integers: ")
+L = L.split()
+M = max(L)
+B = L.index(M)
+print("Maximum:",M)
+print("Index:",B)

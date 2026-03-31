@@ -1,0 +1,8 @@
+L = input("Enter integers: ")
+L = L.split()
+M = max(L)
+m = min(L)
+L.remove(M)
+L.remove(m)
+print(*L)
+print(len(L))

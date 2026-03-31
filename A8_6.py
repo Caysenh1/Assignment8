@@ -1,0 +1,6 @@
+T = (1, 5.6, 6, 37, 45, 0, 21)
+print(min(T))
+print(max(T))
+S = sum(T)
+M = S/len(T)
+print(round(M, 2))

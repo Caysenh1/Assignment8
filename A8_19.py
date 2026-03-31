@@ -1,0 +1,5 @@
+L1 = input("Enter strings: ").split()
+L2 = input("Enter numbers: ").split()
+L2 = list(map(int, L2))
+D = dict(zip(L1, L2))
+print(D)

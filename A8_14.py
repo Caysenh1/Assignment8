@@ -1,0 +1,5 @@
+L = input("Enter numbers: ")
+L = L.split()
+L = list(map(int, L))
+setL = list(set(L))
+print(sorted(setL))
